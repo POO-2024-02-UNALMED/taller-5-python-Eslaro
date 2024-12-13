@@ -1,4 +1,3 @@
-from zooAnimales.animal import Animal
 class Mamifero(animal):
     _listado = []
     caballos = 0

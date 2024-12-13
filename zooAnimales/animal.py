@@ -1,9 +1,4 @@
-from .ave import Ave
-from .anfibio import Anfibio
-from .mamifero import Mamifero
-from .pez import Pez
-from .reptil import Reptil
-
+from gestion.zona import Zona
 class Animal():
     _totalAnimales = 0
     def __init__(self,nombre, edad, habitat, genero):
