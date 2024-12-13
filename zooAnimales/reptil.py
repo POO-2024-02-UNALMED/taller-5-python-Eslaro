@@ -15,7 +15,7 @@ class Reptil(Animal):
     def cantidadReptiles(cls):
         return len(cls._listado)
 
-    def getLargoCola():
+    def getLargoCola(self):
         return self._largoCola
     @classmethod
     def crearIguana(cls, nombre, edad, genero):
