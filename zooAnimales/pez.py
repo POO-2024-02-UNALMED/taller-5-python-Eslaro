@@ -15,12 +15,12 @@ class Pez(Animal):
 
     @classmethod
     def crearSalmon(cls, nombre, edad, genero):
-        salmones += 1
+        cls.salmones += 1
         return Pez(nombre, edad, "oceano", genero, "rojo", 6)
 
     @classmethod
     def crearBacalao(cls, nombre, edad, genero):
-        bacalaos += 1
+        cls.bacalaos += 1
         return Pez(nombre, edad, "oceano", genero, "gris", 6)
 
     def getColorEscamas(self):

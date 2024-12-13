@@ -19,11 +19,11 @@ class Reptil(Animal):
         return self._largoCola
     @classmethod
     def crearIguana(cls, nombre, edad, genero):
-        iguanas += 1
+        cls.iguanas += 1
         return Reptil(nombre, edad, "humedal", genero, "verde", 3)
     @classmethod
     def crearSerpiente(cls, nombre, edad, genero):
-        serpientes += 1
+        cls.serpientes += 1
         return Reptil(nombre, edad, "humedal", genero, "blanco", 1 )
     def movimiento(self):
         return "reptar"
